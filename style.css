@@ -1,0 +1,131 @@
+/* .table1 aplica estilos al contenedor principal de la tabla */
+.table1 {
+    display: inline-block; /* La tabla se muestra en formato inline-block para ajustarse con otros elementos */
+    min-height: 600px; /* Altura mínima de la tabla */
+    width: 97%; /* La tabla ocupa el 97% del ancho de su contenedor */
+    color: white; /* El color del texto es blanco */
+    border-spacing: 0; /* Sin espacio entre las celdas */
+    border: 1px solid black; /* Borde negro alrededor de la tabla, corregido de "boder" a "border" */
+    border-radius: 20px 20px 20px 20px; /* Bordes redondeados con un radio de 20px */
+    padding: 2%; /* Espaciado interno de 2% */
+    margin: 2%; /* Margen externo de 2% */
+}
+
+/* table > caption aplica estilos al título de la tabla */
+table > caption {
+    border: 5px solid #00224D; /* Borde azul oscuro alrededor del título */
+    border-radius: 15px; /* Bordes redondeados con un radio de 15px */
+    background-color: #00224D; /* Color de fondo azul oscuro */
+    color: white; /* Texto blanco */
+    font-size: 50px; /* Tamaño de fuente del título */
+    padding: 1% 1% 1% 1%; /* Relleno de 1% en todos los lados */
+    margin: 2% 2% 2% 2%; /* Margen de 2% en todos los lados */
+}
+
+/* tr > th aplica estilos a las celdas de encabezado */
+tr > th {
+    background-color: #5D0E41; /* Color de fondo granate */
+    border: 1px solid white; /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados con un radio de 10px */
+    height: 50px; /* Altura de las celdas de encabezado */
+    vertical-align: center; /* Alineación vertical centrada */
+    text-align: center; /* Texto alineado al centro */
+    font-size: 25px; /* Tamaño de la fuente */
+    margin: 1%; /* Margen de 1% */
+    padding: 1%; /* Relleno de 1% */
+}
+
+/* table.table1 > th, td aplica estilos a las celdas de la tabla */
+table.table1 > th, td {
+    width: 10%; /* Ancho del 10% para cada celda */
+    height: 60px; /* Altura de 60px */
+    border: 2px outset rgb(255, 255, 255); /* Borde blanco con efecto de relieve */
+    vertical-align: top; /* Alineación vertical en la parte superior */
+    text-align: center; /* Texto alineado al centro */
+    border-radius: 10px; /* Bordes redondeados con un radio de 10px */
+}
+
+/* .hours aplica estilos a la fila de las horas */
+.hours {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #5D0E41; /* Color de fondo granate */
+}
+
+/* span aplica estilos al texto dentro de las celdas */
+span {
+    display: block; /* Se muestra como un bloque */
+    text-align: center; /* Texto centrado */
+    color: black; /* Texto de color negro */
+    visibility: hidden; /* Texto oculto inicialmente */
+}
+
+/* td:active > span muestra el texto cuando la celda está activa */
+td:active > span {
+    visibility: visible; /* El texto se hace visible al hacer clic en la celda */
+}
+
+/* Estilos específicos para las asignaturas */
+
+/* .integradora aplica estilos a la clase integradora */
+.integradora {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #A0153E; /* Color de fondo rojo oscuro */
+}
+
+/* .english aplica estilos a la clase de inglés */
+.english {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #8C3061; /* Color de fondo morado oscuro */
+}
+
+/* .DBAPP aplica estilos a la clase de aplicaciones de bases de datos */
+.DBAPP {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #D95F59; /* Color de fondo rojo claro */
+}
+
+/* .calculodiferencial aplica estilos a la clase de cálculo diferencial */
+.calculodiferencial {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #A0153E; /* Color de fondo rojo oscuro */
+}
+
+/* .aplicacionesweb aplica estilos a la clase de aplicaciones web */
+.aplicacionesweb {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #D95F59; /* Color de fondo rojo claro */
+}
+
+/* .sistemasoperativos aplica estilos a la clase de sistemas operativos */
+.sistemasoperativos {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #A0153E; /* Color de fondo rojo oscuro */
+}
+
+/* .probabilidad aplica estilos a la clase de probabilidad */
+.probabilidad {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #8C3061; /* Color de fondo morado oscuro */
+}
+
+/* .foso aplica estilos a la clase de formacion sociocultural */
+.foso {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #A0153E; /* Color de fondo rojo oscuro */
+}
+
+/* .tutoria aplica estilos a la clase de tutoría */
+.tutoria {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #8C3061; /* Color de fondo morado oscuro */
+}
